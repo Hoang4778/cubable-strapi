@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_element_ctaDownloadApp",
+  "info": {
+    "displayName": "CTA Download App",
+    "icon": "chess-queen",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "linkTo": {
+      "type": "string"
+    }
+  }
+}

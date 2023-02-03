@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_footer_menu_item_level_2s",
+  "info": {
+    "displayName": "Item Level 2"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "slug": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

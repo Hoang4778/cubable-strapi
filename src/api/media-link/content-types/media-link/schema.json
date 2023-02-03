@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "media_links",
+  "info": {
+    "singularName": "media-link",
+    "pluralName": "media-links",
+    "displayName": "Media Link",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "link": {
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "width": {
+      "type": "string"
+    },
+    "height": {
+      "type": "string"
+    },
+    "altText": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

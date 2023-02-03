@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_ui_call_to_action_banners",
+  "info": {
+    "displayName": "Call to Action Banner",
+    "icon": "asterisk",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "richtext",
+      "required": true
+    },
+    "subheading": {
+      "type": "richtext"
+    },
+    "backgroundMedia": {
+      "displayName": "Background Media",
+      "type":"component",
+      "repeatable": false,
+      "component": "element.background-media"
+    },
+    "button": {
+      "type": "component",
+      "repeatable": true,
+      "component": "element.button"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_ui_simple_sections",
+  "info": {
+    "displayName": "Simple Section",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "richtext",
+      "required": true
+    },
+    "subheading": {
+      "type": "richtext",
+      "required": true
+    },
+    "media": {
+      "type": "component",
+      "repeatable": true,
+      "component": "element.media",
+      "required": true
+    },
+    "button": {
+      "type": "component",
+      "repeatable": true,
+      "component": "element.button",
+      "required": true
+    },
+    "backgroundMedia": {
+      "displayName": "Background Media",
+      "type":"component",
+      "repeatable": false,
+      "component": "element.background-media"
+    }
+  }
+}

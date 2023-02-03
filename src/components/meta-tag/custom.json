@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_meta_tag_customs",
+  "info": {
+    "displayName": "Custom",
+    "icon": "align-center",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "property": {
+      "type": "string",
+      "required": true
+    },
+    "content": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

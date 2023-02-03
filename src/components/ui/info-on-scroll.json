@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_ui_info_on_scrolls",
+  "info": {
+    "displayName": "Info on Scroll"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "richtext"
+    },
+    "subheading": {
+      "type": "richtext"
+    },
+    "backgroundMedia": {
+      "displayName": "Background Media",
+      "type":"component",
+      "repeatable": false,
+      "component": "element.background-media"
+    },
+    "item": {
+      "type": "component",
+      "repeatable": true,
+      "component": "element.info-on-scroll-item",
+      "required": true
+    },
+    "button": {
+      "type": "component",
+      "repeatable": true,
+      "component": "element.button",
+      "required": false
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_element_blocks",
+  "info": {
+    "displayName": "block",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "enumeration",
+      "enum": [
+        "heading",
+        "subheading"
+      ],
+      "default": "heading",
+      "required": true
+    },
+    "title": {
+      "type": "richtext"
+    }
+  }
+}

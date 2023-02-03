@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_element_background_medias",
+  "info": {
+    "displayName": "Background Media",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "imageOrVideo": {
+      "allowedTypes": [
+        "images",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "plainColor": {
+      "type": "string"
+    },
+    "linearGradientColor": {
+      "displayName": "Linear Gradient Color",
+      "type": "component",
+      "repeatable": false,
+      "component": "element.linear-gradient-color"
+    }
+  }
+}

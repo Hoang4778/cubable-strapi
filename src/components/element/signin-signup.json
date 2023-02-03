@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_element_signin_signups",
+  "info": {
+    "displayName": "Signin-Signup",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "inputPlaceholder": {
+      "type": "string",
+      "required": true
+    },
+    "button": {
+      "type": "component",
+      "repeatable": true,
+      "component": "element.button",
+      "required": true
+    },
+    "sideNote": {
+      "type": "richtext"
+    }
+  }
+}

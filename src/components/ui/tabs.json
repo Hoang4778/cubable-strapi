@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_ui_tabs",
+  "info": {
+    "displayName": "Tabs",
+    "icon": "barcode",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "richtext"
+    },
+    "subheading": {
+      "type": "richtext"
+    },
+    "backgroundMedia": {
+      "displayName": "Background Media",
+      "type":"component",
+      "repeatable": false,
+      "component": "element.background-media"
+    },
+    "item": {
+      "displayName": "Tab Item",
+      "type": "component",
+      "repeatable": true,
+      "component": "element.tab-item",
+      "required": true
+    }
+  }
+}

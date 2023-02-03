@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_ui_pricings",
+  "info": {
+    "displayName": "Pricing",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "richtext"
+    },
+    "subheading": {
+      "type": "richtext"
+    },
+    "backgroundMedia": {
+      "displayName": "Background Media",
+      "type":"component",
+      "repeatable": false,
+      "component": "element.background-media"
+    },
+    "periodStyle": {
+      "type": "enumeration",
+      "enum": ["Radio button", "Switches"],
+      "default": "Switches",
+      "required": true
+    },
+    "packageType": {
+      "type": "component",
+      "repeatable": true,
+      "component": "element.pricing-package-type",
+      "required": true
+    },
+    "button": {
+      "type": "component",
+      "repeatable": true,
+      "component": "element.button",
+      "required": false
+    }
+  }
+}

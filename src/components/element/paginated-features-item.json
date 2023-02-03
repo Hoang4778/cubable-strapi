@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_element_paginated_features_items",
+  "info": {
+    "displayName": "Paginated Features Item",
+    "icon": "building",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "component",
+      "repeatable": true,
+      "component": "element.media",
+      "required": true
+    },
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "button": {
+      "type": "component",
+      "repeatable": true,
+      "component": "element.button",
+      "required": true
+    },
+    "backgroundColor": {
+      "type": "string"
+    }
+  }
+}

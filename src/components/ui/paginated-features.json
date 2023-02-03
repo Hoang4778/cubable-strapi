@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_ui_paginated_features",
+  "info": {
+    "displayName": "Paginated Features",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "richtext"
+    },
+    "subheading": {
+      "type": "richtext"
+    },
+    "backgroundMedia": {
+      "displayName": "Background Media",
+      "type":"component",
+      "repeatable": false,
+      "component": "element.background-media"
+    },
+    "item": {
+      "type": "component",
+      "repeatable": true,
+      "component": "element.paginated-features-item",
+      "required": true
+    }
+  }
+}

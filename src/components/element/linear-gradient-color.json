@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_element_linear_gradient_colors",
+  "info": {
+    "displayName": "Linear Gradient Color"
+  },
+  "options": {},
+  "attributes": {
+    "direction": {
+      "type": "enumeration",
+      "enum": [
+        "right",
+        "left",
+        "bottom",
+        "top",
+        "top left",
+        "top right",
+        "bottom right",
+        "bottom left"
+      ]
+    },
+    "fromColor": {
+      "type": "string",
+      "required": true
+    },
+    "viaColor": {
+      "type": "string"
+    },
+    "toColor": {
+      "type": "string",
+      "required": true
+    },
+    "degree": {
+      "type": "decimal"
+    }
+  }
+}

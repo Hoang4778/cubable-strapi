@@ -1,0 +1,41 @@
+{
+  "kind": "singleType",
+  "collectionName": "footers",
+  "info": {
+    "singularName": "footer",
+    "pluralName": "footers",
+    "displayName": "Footer",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "menu": {
+      "type": "component",
+      "repeatable": true,
+      "component": "footer-menu.item-level-1"
+    },
+    "button": {
+      "type": "component",
+      "repeatable": true,
+      "component": "element.button"
+    },
+    "terms": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::term.term"
+    },
+    "media_links": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::media-link.media-link"
+    },
+    "CTADownloadApp": {
+      "type": "component",
+      "repeatable": true,
+      "component": "element.ctadownloadapp"
+    }
+  }
+}

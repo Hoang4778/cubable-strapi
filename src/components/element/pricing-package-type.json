@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_element_pricing_package_types",
+  "info": {
+    "displayName": "Pricing Package Type",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "period": {
+      "type": "enumeration",
+      "enum": ["Yearly", "Monthly"],
+      "default": "Yearly",
+      "required": true
+    },
+    "packageItem": {
+      "type": "component",
+      "repeatable": true,
+      "component": "element.pricing-package-item",
+      "required": true
+    }
+  }
+}

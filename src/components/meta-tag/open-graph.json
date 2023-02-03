@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_meta_tag_open_graphs",
+  "info": {
+    "displayName": "Open Graph",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "url": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "string",
+      "required": true
+    },
+    "type": {
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "site_name": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

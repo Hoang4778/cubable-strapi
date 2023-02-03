@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_element_package_benefits",
+  "info": {
+    "displayName": "Package Benefit",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "numberOf": {
+      "type": "string",
+      "required": true
+    },
+    "benefit": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

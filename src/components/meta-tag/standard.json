@@ -1,0 +1,41 @@
+{
+  "collectionName": "components_meta_tag_standards",
+  "info": {
+    "displayName": "Standard",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "maxLength": 60
+    },
+    "description": {
+      "type": "string",
+      "required": true,
+      "maxLength": 155
+    },
+    "robot": {
+      "type": "string",
+      "required": true,
+      "default": "index, follow"
+    },
+    "keywords": {
+      "type": "string",
+      "required": true
+    },
+    "copyright": {
+      "type": "string",
+      "required": true
+    },
+    "author": {
+      "type": "string",
+      "required": true
+    },
+    "canonical": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

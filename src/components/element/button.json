@@ -1,0 +1,42 @@
+{
+  "collectionName": "components_element_buttons",
+  "info": {
+    "displayName": "button",
+    "icon": "chess-queen",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "icon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "iconPosition": {
+      "type": "enumeration",
+      "enum": [
+        "left",
+        "right"
+      ],
+      "default": "left"
+    },
+    "style": {
+      "type": "enumeration",
+      "enum": [
+        "style1",
+        "style2"
+      ],
+      "default": "style1"
+    },
+    "linkTo": {
+      "type": "string"
+    }
+  }
+}

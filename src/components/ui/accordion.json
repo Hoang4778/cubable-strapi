@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_ui_accordions",
+  "info": {
+    "displayName": "Accordion",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "richtext"
+    },
+    "subheading": {
+      "type": "richtext"
+    },
+    "backgroundMedia": {
+      "displayName": "Background Media",
+      "type":"component",
+      "repeatable": false,
+      "component": "element.background-media"
+    },
+    "item": {
+      "displayName": "Accordion Item",
+      "type": "component",
+      "repeatable": true,
+      "component": "element.accordion-item"
+    },
+    "button": {
+      "displayName": "Button",
+      "type": "component",
+      "repeatable": true,
+      "component": "element.button"
+    }
+  }
+}

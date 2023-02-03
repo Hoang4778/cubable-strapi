@@ -1,0 +1,42 @@
+{
+  "collectionName": "components_element_pricing_package_items",
+  "info": {
+    "displayName": "Pricing Package Item",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "string"
+    },
+    "price": {
+      "type": "string",
+      "required": true
+    },
+    "button": {
+      "type": "component",
+      "repeatable": true,
+      "component": "element.button",
+      "required": true
+    },
+    "mostPopular": {
+      "type": "boolean",
+      "default": true,
+      "required": true
+    },
+    "color": {
+      "type": "string"
+    },
+    "benefit": {
+      "displayName": "benefit",
+      "type": "component",
+      "repeatable": true,
+      "component": "element.package-benefit",
+      "required": true
+    }
+  }
+}

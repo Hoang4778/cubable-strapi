@@ -1,0 +1,41 @@
+{
+  "collectionName": "components_ui_listing_n_signups",
+  "info": {
+    "displayName": "Listing & Signup",
+    "icon": "apple-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "richtext"
+    },
+    "subheading": {
+      "type": "richtext"
+    },
+    "sideMedia": {
+      "displayName": "Media",
+      "type": "component",
+      "repeatable":true,
+      "component": "element.media"
+    },
+    "backgroundMedia": {
+      "displayName": "Background Media",
+      "type":"component",
+      "repeatable": false,
+      "component": "element.background-media"
+    },
+    "label": {
+      "displayName": "Label",
+      "type": "component",
+      "repeatable": true,
+      "component": "element.label"
+    },
+    "signupForm": {
+      "displayName": "Signin-Signup",
+      "type": "component",
+      "repeatable": false,
+      "component": "element.signin-signup"
+    }
+  }
+}

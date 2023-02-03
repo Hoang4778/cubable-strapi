@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_element_tab_items",
+  "info": {
+    "displayName": "Tab Item"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "media": {
+      "type": "component",
+      "repeatable": true,
+      "component": "element.media",
+      "required": false
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}

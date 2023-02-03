@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_footer_menu_item_level_1s",
+  "info": {
+    "displayName": "Item Level 1"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "slug": {
+      "type": "string",
+      "required": true
+    },
+    "level2Item": {
+      "displayName": "Item Level 2",
+      "type": "component",
+      "repeatable": true,
+      "component": "footer-menu.item-level-2"
+    }
+  }
+}
