@@ -10,10 +10,19 @@
   "options": {
     "draftAndPublish": true
   },
-  "pluginOptions": {},
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
   "attributes": {
     "title": {
-      "type": "string"
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "MetaTag": {
       "type": "dynamiczone",
@@ -22,7 +31,12 @@
         "meta-tag.open-graph",
         "meta-tag.standard",
         "meta-tag.twitter-card"
-      ]
+      ],
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "Section": {
       "type": "dynamiczone",
@@ -35,7 +49,12 @@
         "ui.pricing",
         "ui.simple-section",
         "ui.tabs"
-      ]
+      ],
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "slug": {
       "type": "uid",
