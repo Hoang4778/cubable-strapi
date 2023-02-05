@@ -1,0 +1,44 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sections",
+  "info": {
+    "singularName": "section",
+    "pluralName": "sections",
+    "displayName": "Section"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "sections": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "dynamiczone",
+      "components": [
+        "ui.accordion",
+        "ui.call-to-action-banner",
+        "ui.info-on-scroll",
+        "ui.listing_signup",
+        "ui.paginated-features",
+        "ui.pricing",
+        "ui.simple-section",
+        "ui.tabs"
+      ],
+      "required": true
+    },
+    "pages": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::page.page",
+      "mappedBy": "sections"
+    }
+  }
+}

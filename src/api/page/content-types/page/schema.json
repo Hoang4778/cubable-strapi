@@ -38,28 +38,16 @@
         }
       }
     },
-    "Section": {
-      "type": "dynamiczone",
-      "components": [
-        "ui.accordion",
-        "ui.call-to-action-banner",
-        "ui.info-on-scroll",
-        "ui.listing_signup",
-        "ui.paginated-features",
-        "ui.pricing",
-        "ui.simple-section",
-        "ui.tabs"
-      ],
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
-    },
     "slug": {
       "type": "uid",
       "targetField": "title",
       "required": true
+    },
+    "sections": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::section.section",
+      "inversedBy": "pages"
     }
   }
 }
